@@ -1,4 +1,3 @@
-// NOTE: replace 'NvPY9M9MzFTARQ6M816YAzDJxZ72' with your Firebase auth user id (can be taken from Firebase)
 export function seedDatabase(firebase) {
     const users = [
       {
@@ -39,7 +38,6 @@ export function seedDatabase(firebase) {
       }
     ];
   
-    // eslint-disable-next-line prefer-const
     for (let k = 0; k < users.length; k++) {
       firebase.firestore().collection('users').add(users[k]);
     }
