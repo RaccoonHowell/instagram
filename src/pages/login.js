@@ -20,9 +20,9 @@ export default function Login() {
 
     return (
         <div className='container flex mx-auto max-w-screen-md items-center h-screen'>
-            <p>Test</p>
+            <div className='flex w-3/5'>
+                <img src='/images/iphone-with-profile.jpg' alt='iPhone with Instagram app' />
+            </div>
         </div>
-    )
-
-    return <p>I am the login page</p>;
+    );
 }
